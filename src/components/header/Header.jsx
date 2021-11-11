@@ -26,6 +26,7 @@ let headerNav = [
   }
 ];
 
+const Footer = () => {
 const Header = () => {
   const { pathname } = useLocation();
   const headerRef = useRef(null);
@@ -59,6 +60,12 @@ const Header = () => {
           <img src={logo} alt="" />
           <Link to="/">Newflix</Link>
         </div>
+    )
+}
+export default Footer
+
+export default Header
+=======
         <ul className="header__nav">
           {headerNav.map((e, i) => (
             <li key={i} className={`${i === active ? "active" : ""}`}>

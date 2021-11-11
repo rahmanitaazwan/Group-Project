@@ -17,6 +17,11 @@ const Footer = () => {
             <Link to="/">Newflix</Link>
           </div>
         </div>
+    )
+}
+export default Footer
+export default Footer
+=======
         <div className="footer__content__menus">
           <div className="footer__content__menu">
             <Link to="/">Home</Link>

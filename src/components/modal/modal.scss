@@ -1,3 +1,4 @@
+@use "../../scss/" as *;
 @use "../../scss/"as *;
 
 .modal {
@@ -48,4 +49,5 @@
         opacity: 1;
         transform: translateY(0);
     }
+}
 }
