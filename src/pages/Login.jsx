@@ -68,7 +68,7 @@ const Login = () => {
               Login with Facebook
             </p>
             <p className="signUp">
-              New to Netflix?{" "}
+              New to Newflix?{" "}
               <a
                 href="https://www.netflix.com/in/"
                 style={{
